@@ -9,10 +9,4 @@
     <PackageReference Include="Google.Apis.Drive.v3" Version="1.30.0.1037" />
   </ItemGroup>
 
-  <ItemGroup>
-    <None Update="client_secret.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-
 </Project>
