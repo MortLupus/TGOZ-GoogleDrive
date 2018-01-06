@@ -18,6 +18,8 @@ namespace TGOZ_GoogleDrive
 {
     public class Program
     {
+        //https://developers.google.com/drive/v3/web/quickstart/dotnet
+
         // If modifying these scopes, delete your previously saved credentials
         // at ~/.credentials/drive-dotnet-quickstart.json
         static string[] Scopes = { DriveService.Scope.Drive, DriveService.Scope.DriveAppdata, DriveService.Scope.DriveMetadata };
